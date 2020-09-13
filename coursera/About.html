@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="eng" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <title>Samir-Portfolio</title>
+    <link rel="stylesheet" href="About.css">
+</head>
+<body>
+  <section>
+    <header>
+            <a href="#" class="logo">SAMIR</a>
+            <div class="toggleMenu" onclick="toggleMenu();"></div>
+    <ul class="navigation">
+        <li><a href="samir.html">Home</a></li>
+        <li><a href="Acadmics.html">Academics</a></li>
+        <li><a href="About.html">About</a></li>
+        <li><a href="Contact.html">Contact</a></li>
+    </ul>
+    </header>
+<div class="content">
+<div class="contentBX">
+    <h2>Technical-:</h2>
+    <p>Language Known-:Python,javascript</p>
+    <p>FrameWork-:Bootstrap</p>
+    <p>Technology Known-:Front-End Devloper </p>
+</div>
+</div>
+</section>
+<script type="text/javascript">
+function toggleMenu(){
+const toggleMenu=document.querySelector('.toggleMenu');
+const navigation=document.querySelector('.navigation');
+toggleMenu.classList.toggle('active')
+navigation.classList.toggle('active')
+}
+</script>
+</body>
+</html>

@@ -91,7 +91,7 @@ h2{
     font-weight:300;
     margin:20px 0;
 }
-@media (min-width :700px){
+@media (max-width :700px){
     header{
         padding: 15px 40px;
     }

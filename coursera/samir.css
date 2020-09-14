@@ -70,7 +70,7 @@ h2{
     font-weight:300;
     margin:20px 0;
 }
-@media (max-width :450px){
+@media (min-width :450px){
     header{
         padding: 15px 40px;
     }

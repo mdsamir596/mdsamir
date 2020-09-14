@@ -88,7 +88,7 @@ h2{
     filter:invert(1);
     transform: scale(0.5);
 }
-@media (max-width :1000px){
+@media (max-width :600px){
     header{
         padding: 15px 40px;
     }

@@ -70,7 +70,7 @@ h2{
     font-weight:300;
     margin:20px 0;
 }
-@media (max-width :1000px){
+@media (max-width :900px){
     header{
         padding: 15px 40px;
     }
@@ -84,7 +84,7 @@ h2{
         font-size: 2.5em;
     }
     .content .contentBX p{
-        font-size: 1em;
+        font-size: 1.5em;
     }
     header .navigation{
         position: fixed;

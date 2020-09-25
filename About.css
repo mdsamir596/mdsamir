@@ -1,0 +1,126 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+section{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    background-image: url("pic5.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 100px;
+}
+header{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .logo{
+    position: relative;
+    font-size: 2em;
+    color:white;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-decoration: none;
+    letter-spacing: 2px;
+}
+header  .navigation{
+    position: relative;
+    display: flex;
+}
+header  .navigation li{
+    list-style: none;
+}
+header  .navigation li a{
+    display: inline-block;
+    color: white;
+    margin-right: 40px;
+    text-decoration: none;
+}
+header  .navigation li a:hover{
+    color:blue;
+}
+header  .navigation li a:hover
+h2{
+    margin-top:10px;
+    margin-left: 10px;
+}
+.content{
+    max-width: 600px;
+}
+.content .contentBX h2{
+    font-size: 4em;
+    color:white;
+    line-height: 1em;
+}
+.content .contentBX p{
+    font-size: 1.5em;
+    color:white;
+    font-weight:300;
+    margin:20px 20px;
+}
+@media (max-width :1000px){
+    header{
+        padding: 15px 40px;
+    }
+    section{
+        padding: 40px;
+        background:url("pic5.jpg");
+        background-size: cover;
+        background-position: center;
+    }
+    .content .contentBX h2{
+        font-size: 2.5em;
+    }
+    .content .contentBX p{
+        font-size: 2em;
+    }
+    header .navigation{
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: #000;
+        z-index: 10;
+        display: none;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    header .navigation.active{
+        display: flex;
+    }
+    header .navigation li a{
+        font-size: 50px;
+        margin: 20px 0;
+    }
+    .toggleMenu{
+        position: relative;
+        width: 30px;
+        height: 30px;
+        background:url("menu.png");
+        background-position: center;
+        background-size: 30px;
+        background-repeat: no-repeat;
+        cursor: pointer;
+        z-index: 11;
+    }
+    .toggleMenu.active{
+        background:url("close.png");
+        background-position: center;
+        background-size: 30px;
+        background-repeat: no-repeat;
+    }
+}

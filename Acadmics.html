@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="eng" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <title>Samir-Portfolio</title>
+    <link rel="stylesheet" href="Acadmics.css">
+</head>
+<body>
+  <section>
+    <header>
+            <a href="#" class="logo">SAMIR</a>
+            <div class="toggleMenu" onclick="toggleMenu();"></div>
+    <ul class="navigation">
+        <li><a href="samir.html">Home</a></li>
+        <li><a href="Acadmics.html">Academics</a></li>
+        <li><a href="About.html">About</a></li>
+        <li><a href="Contact.html">Contact</a></li>
+    </ul>
+    </header>
+<div class="content">
+<div class="contentBX">
+    <h2>Academics-:</h2>
+    <p><table>
+      <tr>
+        <th>Course</th>
+        <th>Year</th>
+        <th>Board/University</th>
+        <th>Marks/Cgpa</th>
+        <th>School/college Name</th>
+      </tr>
+      <tr>
+        <td>B-tech(ECE)</td>
+        <td>2020</td>
+        <td>MAKAUT</td>
+        <td>7.0/10</td>
+        <td>Techno India Salt Lake</td>
+      </tr>
+      <tr>
+        <td>12th</td>
+        <td>2015</td>
+        <td>BSEC</td>
+        <td>73%</td>
+        <td>Devendra Pathak college Gaya </td>
+      </tr>
+      <tr>
+        <td>10th</td>
+        <td>2013</td>
+        <td>BSEC</td>
+        <td>66%</td>
+        <td>Ram Charitra P K H S</td>
+      </tr>
+        </table>
+        </p>
+</div>
+</div>
+</section>
+<script type="text/javascript">
+function toggleMenu(){
+const toggleMenu=document.querySelector('.toggleMenu');
+const navigation=document.querySelector('.navigation');
+toggleMenu.classList.toggle('active')
+navigation.classList.toggle('active')
+}
+</script>
+</body>
+</html>
